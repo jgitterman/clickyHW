@@ -64,6 +64,7 @@ class Game extends Component {
   };
 
   handleIncorrect = cardData => {
+    {{alert("YOU LOST!");}}
     const shuffledCards = cardData.sort(() => 0.5 - Math.random());
 
     // reset all cards to not be clicked
